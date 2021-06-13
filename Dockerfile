@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:20.04
 COPY ./kotyacoin.conf /root/.kotyacoin/kotyacoin.conf
 COPY . /kotyacoin
 WORKDIR /kotyacoin
@@ -21,5 +21,5 @@ RUN ./configure
 RUN make
 RUN make install
 #open service port
-EXPOSE 9666 19666
+EXPOSE 9655 19655
 CMD ["kotyacoin", "--printtoconsole"]
