@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-# COPY ./kotyacoin.conf /root/.kotyacoin/kotyacoin.conf
+COPY ./kotyacoin.conf /root/.kotyacoin/kotyacoin.conf
 COPY . /kotyacoin
 WORKDIR /kotyacoin
 #shared libraries and dependencies
