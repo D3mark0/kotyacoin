@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:16.04
 COPY ./kotyacoin.conf /root/.kotyacoin/kotyacoin.conf
 COPY . /kotyacoin
 WORKDIR /kotyacoin
