@@ -124,11 +124,11 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x149c654becc3166fb61be8fd1be35d5e3f6bddfbcf6a5920dc3c40687b462008"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back("seed-a.kotyacoin.loshan.co.uk", true);
-        vSeeds.emplace_back("dnsseed.thrasher.io", true);
-        vSeeds.emplace_back("dnsseed.kotyacointools.com", true);
-        vSeeds.emplace_back("dnsseed.kotyacoinpool.org", true);
-        vSeeds.emplace_back("dnsseed.koin-project.com", false);
+        //vSeeds.emplace_back("seed-a.kotyacoin.loshan.co.uk", true);
+        //vSeeds.emplace_back("dnsseed.thrasher.io", true);
+        //vSeeds.emplace_back("dnsseed.kotyacointools.com", true);
+        //vSeeds.emplace_back("dnsseed.kotyacoinpool.org", true);
+        //vSeeds.emplace_back("dnsseed.koin-project.com", false);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,45);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -213,9 +213,9 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("testnet-seed.kotyacointools.com", true);
-        vSeeds.emplace_back("seed-b.kotyacoin.loshan.co.uk", true);
-        vSeeds.emplace_back("dnsseed-testnet.thrasher.io", true);
+        //vSeeds.emplace_back("testnet-seed.kotyacointools.com", true);
+        //vSeeds.emplace_back("seed-b.kotyacoin.loshan.co.uk", true);
+        //vSeeds.emplace_back("dnsseed-testnet.thrasher.io", true);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,45);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
